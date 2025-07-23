@@ -65,8 +65,7 @@ A full-stack AI-powered document Q\&A web application built with **Next.js 15**,
 ## 📁 Project Structure
 
 ```
-ai-doc-chat-app/
-├── frontend/               # Next.js 15 app
+ai-doc-chat-app/        
 │   ├── app/                # App Router structure
 │   ├── components/         # Reusable UI components
 │   ├── lib/                # Utility and PDF handling
@@ -123,10 +122,7 @@ npm install
 
 Create a `.env` file in both `frontend/` and `genkit/` directories:
 
-```env
-# frontend/.env
-NEXT_PUBLIC_GENKIT_API_URL=http://localhost:4000
-```
+
 
 ```env
 # genkit/.env
@@ -137,23 +133,14 @@ GOOGLE_API_KEY=your_google_api_key_here
 
 ## 🏁 Running the App Locally
 
-### Start Genkit Backend
-
-```bash
-cd genkit
-genkit dev
-```
-
-> Genkit UI: [http://localhost:4000](http://localhost:4000)
 
 ### Start Frontend
 
 ```bash
-cd frontend
 npm run dev
 ```
 
-> App: [http://localhost:9002](http://localhost:9002)
+> App: [http://localhost:3000](http://localhost:3000)
 
 ---
 
